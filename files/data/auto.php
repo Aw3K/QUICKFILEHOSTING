@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-$conn = new mysqli('btizszbrodni.nazwa.pl', 'btizszbrodni_fileupload', 'AfGi74Koi89', 'btizszbrodni_fileupload');
+$conn = new mysqli('fileupload');
 
 function delTree($dir) {
    $files = array_diff(scandir($dir), array('.','..'));
