@@ -1,0 +1,58 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.7
+-- https://www.phpmyadmin.net/
+--
+-- Host: btizszbrodni.nazwa.pl:3306
+-- Czas generowania: 08 Paź 2019, 17:29
+-- Wersja serwera: 10.1.41-MariaDB
+-- Wersja PHP: 7.2.10-0ubuntu0.18.04.1
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+--
+-- Baza danych: `btizszbrodni_fileupload`
+--
+CREATE DATABASE IF NOT EXISTS `btizszbrodni_fileupload` DEFAULT CHARACTER SET latin2 COLLATE latin2_general_ci;
+USE `btizszbrodni_fileupload`;
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `files`
+--
+
+CREATE TABLE `files` (
+  `id` int(11) NOT NULL,
+  `token` text NOT NULL,
+  `hash` text NOT NULL,
+  `fname` text NOT NULL,
+  `size` int(11) NOT NULL,
+  `created` text NOT NULL,
+  `expired` text NOT NULL,
+  `userip` text NOT NULL,
+  `dcount` int(11) NOT NULL DEFAULT '0',
+  `remove` text NOT NULL,
+  `owner` int(11) NOT NULL DEFAULT '0',
+  `pass` text NOT NULL,
+  `locked` varchar(32) NOT NULL DEFAULT 'false'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Indeksy dla tabeli `files`
+--
+ALTER TABLE `files`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT dla tabeli `files`
+--
+ALTER TABLE `files`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=503;
+COMMIT;
