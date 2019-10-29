@@ -1,0 +1,92 @@
+<?php
+
+//PL
+$langbase["pl"]["submit"] = "Wyślij Plik";
+$langbase["pl"]["fuploadinfo"] = "Wyślij Plik";
+$langbase["pl"]["contact"] = "Kontakt";
+$langbase["pl"]["repbug"] = "Zgłoś błąd";
+$langbase["pl"]["languageinfo"] = "Choose Language";
+$langbase["pl"]["cinfo"] = "Kliknij i wybierz plik aby go przesłać! (Maksymalnie 1GB)";
+$langbase["pl"]["fakeinp"] = "Kliknij tutaj by wybrać plik";
+$langbase["pl"]["offer"][0] = "100% Darmowe.";
+$langbase["pl"]["offer"][1] = "Nielimitowana powierzchnia dysku.";
+$langbase["pl"]["offer"][2] = "Bez rejestracji.";
+$langbase["pl"]["offer"][3] = "Oferujemy wysokie prędkości.";
+$langbase["pl"]["offer"][4] = "Maksymalny rozmiar pliku to aż 1GB.";
+$langbase["pl"]["offer"][5] = "Plik może być pobierany kiedy i ile razy zechcesz.";
+$langbase["pl"]["offer"][6] = "Plik jest dostępny do 30 dni od ostatniego pobrania.";
+$langbase["pl"]["offer"][7] = "Brak kolejek i limitów.";
+$langbase["pl"]["offer"][8] = "Pliki są zaszyfrowane i zabezpieczone.";
+$langbase["pl"]["term"][0] = "Poprzez wysłanie pliku zgadzasz się z ";
+$langbase["pl"]["term"][1] = "Regulaminem";
+$langbase["pl"]["filerequest"] = "Plik który zamierzasz pobrać:";
+$langbase["pl"]["download"] = "POBIERZ PLIK";
+$langbase["pl"]["contactinfo"] = "By skontaktować się z włascicielem strony możesz użyć informacji podanych poniżej lub skożystać z arkusza po prawej.";
+$langbase["pl"]["contactinfo2"] = "Staramy się odpowiedzieć jak najszybciej.";
+$langbase["pl"]["contactsubmit"] = "Wyślij wiadomośc";
+$langbase["pl"]["contactt"] = "Temat: ";
+$langbase["pl"]["contacterror"] = "Musisz wypełnić wszystkie pola/podany e-mail jest błędny.  Kliknij wstecz i popraw błędy.";
+$langbase["pl"]["contactsuccess"] = "Zapisaliśmy twoją wiadomość. Czekaja na odpowiedz, którą wyślemy na podany email.";
+$langbase["pl"]["dcount"] = "Ilość pobrań: ";
+$langbase["pl"]["account"] = "Konto";
+
+//ENG
+$langbase["en"]["submit"] = "Start Upload";
+$langbase["en"]["fuploadinfo"] = "Upload File";
+$langbase["en"]["contact"] = "Contact";
+$langbase["en"]["repbug"] = "Report issue";
+$langbase["en"]["languageinfo"] = "Choose Language";
+$langbase["en"]["cinfo"] = "Click and choose a file to upload! (Max 1GB)";
+$langbase["en"]["fakeinp"] = "Click there to select file";
+$langbase["en"]["offer"][0] = "100% Free.";
+$langbase["en"]["offer"][1] = "Unlimited Disk Space.";
+$langbase["en"]["offer"][2] = "No Sign Up Required.";
+$langbase["en"]["offer"][3] = "We offer fast download speeds.";
+$langbase["en"]["offer"][4] = "The maximum filesize for a single file is 1 GB.";
+$langbase["en"]["offer"][5] = "The file can be downloaded at any time and as often as you need it.";
+$langbase["en"]["offer"][6] = "File Life: 30 days after no activity.";
+$langbase["en"]["offer"][7] = "No ridiculous queues, no limits.";
+$langbase["en"]["offer"][8] = "Files are encrypted and protected.";
+$langbase["en"]["term"][0] = "By uploading a file You agree to the ";
+$langbase["en"]["term"][1] = "Terms and Conditions";
+$langbase["en"]["filerequest"] = "File requested to download:";
+$langbase["en"]["download"] = "DOWNLOAD FILE";
+$langbase["en"]["contactinfo"] = "To contact the owner of the page You can use intel below or contact form on the right side.";
+$langbase["en"]["contactinfo2"] = "You will get answer as quick as we can.";
+$langbase["en"]["contactsubmit"] = "Send message";
+$langbase["en"]["contactt"] = "Topic: ";
+$langbase["en"]["contacterror"] = "You have to fill all fields/gived email is not correct. Click back to correct mistakes.";
+$langbase["en"]["contactsuccess"] = "We saved your message. Check your e-mail and wait for response.";
+$langbase["en"]["dcount"] = "Download counts: ";
+$langbase["en"]["account"] = "Account";
+
+//GER
+$langbase["deu"]["submit"] = "Upload starten";
+$langbase["deu"]["fuploadinfo"] = "Datei hochladen";
+$langbase["deu"]["contact"] = "Kontakt";
+$langbase["deu"]["repbug"] = "Melde Probleme";
+$langbase["deu"]["languageinfo"] = "Choose Language";
+$langbase["deu"]["cinfo"] = "Klicken Sie auf und wählen Sie eine Datei zum Hochladen aus (max. 1 GB)";
+$langbase["deu"]["fakeinp"] = "Klicken Sie dort, um die Datei auszuwählen";
+$langbase["deu"]["offer"][0] = "100% kostenlos.";
+$langbase["deu"]["offer"][1] = "Unbegrenzter Speicherplatz.";
+$langbase["deu"]["offer"][2] = "Keine Anmeldung erforderlich.";
+$langbase["deu"]["offer"][3] = "Wir bieten schnelle Downloadgeschwindigkeiten.";
+$langbase["deu"]["offer"][4] = "Die maximale Dateigröße für eine einzelne Datei beträgt 1 GB.";
+$langbase["deu"]["offer"][5] = "Die Datei kann jederzeit und beliebig oft heruntergeladen werden.";
+$langbase["deu"]["offer"][6] = "Dateilebensdauer: 30 Tage nach keiner Aktivität.";
+$langbase["deu"]["offer"][7] = "Keine lächerlichen Schlangen, keine Grenzen.";
+$langbase["deu"]["offer"][8] = "Dateien sind verschlüsselt und geschützt.";
+$langbase["deu"]["term"][0] = "Durch das Hochladen einer Datei stimmen Sie dem zu";
+$langbase["deu"]["term"][1] = "Geschäftsbedingungen";
+$langbase["deu"]["filerequest"] = "Zum Download angeforderte Datei:";
+$langbase["deu"]["download"] = "DOWNLOAD-DATEI";
+$langbase["deu"]["contactinfo"] = "Den Besitzer der Seite zu kontaktieren, können Sie das untenstehende Kontaktformular oder das Kontaktformular auf der rechten Seite verwenden.";
+$langbase["deu"]["contactinfo2"] = "Sie werden so schnell wie möglich antworten.";
+$langbase["deu"]["contactsubmit"] = "Nachricht senden";
+$langbase["deu"]["contactt"] = "Topic: ";
+$langbase["deu"]["contacterror"] = "Sie müssen alle Felder ausfüllen / die E-Mail-Adresse ist nicht korrekt. Klicken Sie auf Zurück, um Fehler zu korrigieren.";
+$langbase["deu"]["contactsuccess"] = "Wir haben Ihre Nachricht gespeichert. Überprüfen Sie Ihre E-Mail und warten Sie auf eine Antwort.";
+$langbase["deu"]["dcount"] = "Download zählt:";
+$langbase["deu"]["account"] = "Konto";
+?>
