@@ -7,7 +7,7 @@ function generateRandomString($length = 10) {
 }
 
 
-$conn = new mysqli('btizszbrodni.nazwa.pl', 'btizszbrodni_accounts', 'AfGi74Koi89', 'btizszbrodni_accounts');
+$conn = new mysqli('accounts');
 if (isset($_POST['mode']) && !empty($_POST['mode'])) {
 	if ($_POST['mode'] == "login") 
 	{
